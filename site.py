@@ -260,14 +260,19 @@ with st.form(key='writer_form'):
             st.session_state.dono += 15
             st.session_state.maru += 15
             st.session_state.gumi += 15
+            st.text('あなたの回答:三谷幸喜')
         elif answer_4 == 2:
             st.session_state.idatenn += 15
+            st.text('あなたの回答:宮藤官九郎')
         elif answer_4 == 3:
             st.session_state.ie += 15
+            st.text('あなたの回答:古沢良太')
         elif answer_4 == 4:
             st.session_state.ryoma += 15
+            st.text('あなたの回答:福田靖')
         elif answer_4 == 5:
             st.session_state.tuke += 15
+            st.text('あなたの回答:大森美香')
 
 
 point = {"光る君へ":st.session_state.kimi, "鎌倉殿の13人":st.session_state.dono,
